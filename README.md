@@ -1,12 +1,5 @@
 <h1 align="center">music-website</h1>
 
-<br/>
-
-<h1 align="center"><font color="red">声明</font></h1>
-
-**这项目我一直作为技术分享，不做收费（版权归我个人独有，大家拿来学习交流随时欢迎，拒绝商用）。希望大家可以尊重下我的劳动成果，谢谢。**
-
-<br/>
 
 ## 项目说明
 
@@ -14,47 +7,7 @@
 
 <br/>
 
-## 项目预览
 
-> 前台截图预览
-
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h1gjdm8x3jj21c00u00ui.jpg)<br/>
-
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h1gje55hgxj21c00u0n3v.jpg)<br/>
-
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h1gk5fxmwxj21c00u0wm2.jpg)<br/>
-
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h1gk5rtelgj21c00u00w7.jpg)<br/>
-
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h1gk6a1b8wj21c00u0tf2.jpg)<br/>
-
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h1gkl6bu35j21c00u00wb.jpg)<br/>
-
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h1gklntw77j21c00u077j.jpg)<br/>
-
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h1gkokestbj21c00u0ju8.jpg)<br/>
-
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h1gknhg12sj21c00u00v4.jpg)
-
-<br/>
-
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h1gknu0rszj21c00u0jto.jpg)<br/>
-
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h1gkoxoehnj21c00u0q5j.jpg)<br/>
-
-> 后台截图预览
-
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h158xvsdvij21c00u0wi8.jpg)<br/>
-
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h159x0re56j21c00u077a.jpg)<br/>
-
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h159xzbi85j21c00u0whn.jpg)<br/>
-
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h159zewsh4j21c00u079f.jpg)<br/>
-
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h159yz5x8hj21c00u0win.jpg)<br/>
-
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h159yo2nzmj21c00u0djp.jpg)<br/>
 
 ## 项目功能
 
@@ -118,20 +71,17 @@ git clone git@gitee.com:Yin-hongwei/music-website.git
 ### 3、修改配置文件
 
 1）创建数据库
-将 `music-website/music-server/sql` 文件夹中的 `tp_music.sql` 文件导入数据库。
+将 `music-website/musicPlatform/sql` 文件夹中的 `tp_music.sql` 文件导入数据库。
 
 2）修改用户名密码
-修改 `music-website/music-server/src/main/resources/application.properties` 文件里的 `spring.datasource.username` 和 `spring.datasource.password`；
+修改 `music-website/musicPlatform/src/main/resources/application.properties` 文件里的 `spring.datasource.username` 和 `spring.datasource.password`；
 
 ### 4、启动项目
 
 - **启动管理端**：进入 music-server 文件夹，运行下面命令启动服务器
 
 ```js
-// 方法一
-./mvnw spring-boot:run
 
-// 方法二
 mvn spring-boot:run // 前提装了 maven
 ```
 
@@ -151,17 +101,7 @@ npm install // 安装依赖
 npm run serve // 启动后台管理项目
 ```
 
-<br/>
-
-## 赞助
-
-如果此项目对你确实有帮助，欢迎给我打赏一杯咖啡～😄
-
-<img src="https://tva1.sinaimg.cn/large/008i3skNgy1gsgm6jokvaj30gs0feadd.jpg" height="300px"/>
-
-<br/>
-
 ## License
 
-Copyright (c) 2018 Yin-Hongwei 
+Copyright (c) 2022 Deng Jiaming
 
